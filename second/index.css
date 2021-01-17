@@ -1,0 +1,80 @@
+* {
+    box-sizing:border-box;
+} 
+
+body {
+    margin: 0;
+    width: 100%;    
+}
+
+ul {
+    width: 98%;  /* I'm doing something wrong here, but I don't know how to fix it, other than using 98 not 100 */
+    padding: 5px;
+    margin: 15px;      
+    border: black 5px solid;
+}
+
+ul, li {
+    list-style: none;
+    display:inline-block;
+    margin-top: 3px;    
+    margin-bottom: 3px;    
+}
+
+.purple {
+    height: 12vh;
+    width: 4vw;
+    margin-left: 5px;
+    background-color: blueviolet;
+}
+
+.green {
+    height: 20vh;  
+    width: 35vw;
+    margin-left: 3vw;    
+    background-color:green;
+}
+
+.blue {
+    width:18%;
+    min-width: 150px;
+    min-height: 150px;
+    padding-bottom:18%;
+    border-radius: 50%;
+    margin-left: 3vw;  
+    background-color:lightskyblue;
+}
+
+main {
+    height: 25vw;  
+    width: 98%;
+    margin: 3% auto;
+    border: black 4px dotted;
+}
+
+section {
+    height:70%;
+    width:90%;
+    margin:3% auto;
+    background-color:#fffdc5;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+footer {
+    display: block;
+    width: 45%;
+    margin:3% auto;
+    padding: 100px 0;
+    border:lightgray 1px solid;
+    font-size: 32px;
+    text-align: center;
+    color:darkblue;
+    letter-spacing: 10px;
+    box-shadow: 4px 5px 3px -1px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 4px 5px 3px -1px rgba(0,0,0,0.29);
+    -moz-box-shadow: 4px 5px 3px -1px rgba(0,0,0,0.29);    
+    border-bottom: orange;
+}
+
